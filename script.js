@@ -32,7 +32,7 @@ const deletePassword = (website)=>{
     localStorage.setItem("passwords", JSON.stringify(arrUpdated))
     alert(`Successfully deleted ${website}'s password`)
     showPasswords()
-
+    // now it will show ur old password got deleted successfully
 }
 
 // Logic to fill the table
